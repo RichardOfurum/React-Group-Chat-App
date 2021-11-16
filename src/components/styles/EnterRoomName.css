@@ -1,0 +1,68 @@
+.enter-room-name {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	bottom: 0px;
+	background-color: rgba(53, 53, 53, 0.199);
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.input_container {
+	width: 400px;
+	height: 200px;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	position: relative;
+}
+
+.input_container > .icon-button {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	color: gray;
+}
+
+.input_container > .add_chat_input {
+	height: 40px;
+}
+
+.create_new_chat_form {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	/* margin: 10px; */
+}
+
+.create_new_chat_form > .add_chat_input {
+	height: 40px;
+	outline: none;
+	font-size: 18px;
+	width: 90%;
+	border: none;
+	background-color: rgba(192, 192, 192, 0.5);
+	font-weight: bolder;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.create_new_chat_form > .add_chat_button {
+	height: 40px;
+	margin-top: 10px;
+	outline: none;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	font-weight: bold;
+	background-color: rgb(70, 145, 70);
+	color: #fff;
+}
